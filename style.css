@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgb(20,20,24);
+    color:#fff;
+    font-family: 'Overpass', sans-serif;
+}
+.container{
+    width: 350px;
+    height: 350px;
+    margin: 150px auto;
+    padding: 30px;
+    background-color: rgb(25,30,41);
+    border-radius: 25px;
+}
+.rating{
+    height: 350px;
+}
+.image{
+    background:rgb(39,46,57);
+    margin: 20px 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.image img{
+    margin-top: 11.5px;
+    margin-left: 13.5px;
+    width: 15px;
+    height: 15px;
+}
+.content{
+    margin-top: 30px;
+}
+.content h1{
+    padding-bottom: 10px;
+}
+.content p{
+    color:  hsl(217, 12%, 63%);
+    line-height: 25px;
+    font-weight: 400;
+    font-size:15px;
+    letter-spacing: 0.5px;
+}
+.scale{
+    margin-top: 25px;
+    display:flex;
+    justify-content: space-between;
+}
+button{ 
+    border : none;
+    color:  hsl(217, 12%, 63%);
+    box-sizing: border-box;
+    font-size: 15px;
+    border-radius: 55%;
+    padding: 15px 20px;
+    background:rgb(39,46,57);
+}
+
+button:hover{
+    background: orange;
+    color:hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+button:focus{
+    background: hsl(216, 12%, 54%);
+    color:hsl(0, 0%, 100%);
+}
+.submit{
+    margin-top: 20px;
+}
+#btn{
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    border: none;
+    background-color: hsl(25, 97%, 53%);
+    color: rgb(255,255,255);
+    border-radius: 35px;
+    padding: 10px;
+    width: 350px;
+}   
+#btn:hover{
+    background: rgb(255,255,255);
+    color:hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+.thank-you{
+    display: none;
+    height: 350px;
+}
+.img{
+    margin-top: 30px;
+    margin-left: 80px;;
+}
+
+.result{
+    margin: 15px 60px;
+    padding:5px;
+    text-align:center;
+    width: 200px;
+    background:rgb(39,46,57);
+    border-radius:35px;
+    color: hsl(25, 97%, 53%);
+}
+.result p{
+    margin-top: -5px;
+}
+.ty-content{
+    display: block;
+    text-align: center;
+}
+.ty-content h1 , p{
+    padding-top: 10px;
+}
+.ty-content p {
+    letter-spacing: 1px;
+    color:hsl(216, 12%, 54%);
+}
+
+
+@media screen and (max-width: 375px){
+    .container{
+        width: 280px;
+        height: 350px;
+    }
+    .rating{
+        height: 350px;
+    }
+    .content{
+    margin-top: 20px;
+    }
+    .content p{
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    }
+    .scale{
+    margin-top: 15px;
+    }
+    #btn{
+    width: 100%
+    }   
+}
+
+@media screen and (min-width: 376px) and (max-width: 500px){
+    .container{
+        width: 300px;
+        height: 350px;
+    }.rating{
+        height: 350px;
+    }
+    .content{
+    margin-top: 20px;
+    }
+    .content p{
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    }
+    .scale{
+    margin-top: 15px;
+    }
+    #btn{
+    width: 100%
+    }   
+}

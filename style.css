@@ -16,7 +16,6 @@ body{
     border-radius: 25px;
 }
 .rating{
-    display: none;
     height: 350px;
 }
 .image{
@@ -89,6 +88,7 @@ button:focus{
 }
 
 .thank-you{
+    display: none;
     height: 350px;
 }
 .img{
